@@ -4,7 +4,8 @@ html {
 
 .masthead {
  background-image: url("../images/leaf-bg.svg");
- background-size: 64px auto;
+ background-size: 64px;
+ background-position: left;
  background-color: #588477;
  border: 3px solid #2d5a4d;
  color: #fff;
@@ -30,23 +31,28 @@ html {
 
 .nav a:hover {
   background: url("../images/leaf-icon.svg") no-repeat center center/ 64px;
+  background-image: linear-gradient(to left, rgba(16, 52, 41, 0) );
   background-color: #fff;
   color: #145b1d;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-  background-attachment: scroll;
-  background-size: contain;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, 0),
+  rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  border-bottom: 3px solid #2d5a4d;
+  background-position: bottom;
+
 }
 
 .banner-content {
-  padding-top: 10rem;
+  padding-top: 300px;
   color: #fff;
   background-image: url("../images/two-leaves.svg");
-  background-position: left center;
+  background-position: 15px 180px;
   background-repeat: no-repeat;
+  background-size: 100px;
 
 }
 
