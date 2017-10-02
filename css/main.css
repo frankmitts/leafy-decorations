@@ -29,21 +29,24 @@ html {
 }
 
 .nav a:hover {
-
+  background: url("../images/leaf-icon.svg") no-repeat center center/ 64px;
+  background-color: #fff;
+  color: #145b1d;
 }
 
 .banner {
   background-image: url("../images/banner.jpg");
   background-attachment: scroll;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
-  padding-top: 30rem;
+  padding-top: 10rem;
   color: #fff;
   background-image: url("../images/two-leaves.svg");
   background-position: left center;
   background-repeat: no-repeat;
-
 
 }
 
